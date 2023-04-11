@@ -20,6 +20,7 @@ $\rho$ is the correlation between the 2 asset, we decompose the expressions so t
 $z_1,z_2$ are uncorrelated brownians
 
 $$S_1 \sim f(z_1, \sigma_1)$$
+
 $$S_2 \sim f(z_1, \rho\sigma_2) \cdot f(z_2, \sqrt{1-\rho^2} \cdot \sigma_2)$$
 
 ## Domains
@@ -42,6 +43,7 @@ Lower bound is when spread intrinsic is zero.
 $$z_{2,min}=g \left(\frac{f(z_1, \sigma_1) + k}{f(z_1, \rho \sigma_2)}, \sqrt{1-\rho^2} \cdot\sigma_2 \right)$$
 
 Upper bound is the barrier on the $S_2$.
+
 $$z_{2,max}=g \left(\frac{K_2}{f(z_1, \rho \sigma_2)}, \sqrt{1-\rho^2} \cdot\sigma_2 \right)$$
 
 # Analytical integration
